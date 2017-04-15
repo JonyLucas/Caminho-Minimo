@@ -41,12 +41,6 @@ class Grafo{
             E[v1].push_back(make_pair(v2, custo));
         }
 
-        void showGrafo(){
-            for(int i = 0; i < V; i++){
-
-            }
-        }
-
         int dijkstra(int origem, int destino){
             
             /**Vetor de distancias**/
